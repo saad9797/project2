@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chilanka&family=JetBrains+Mono:wght@600&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+p{
+  font-size: 30px;
+  line-height: 30px;
+}
+body{
+  line-height: 15px;
+  font-size: 22px;
+  background: hsla(0, 0%, 0%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 1) 67%, hsla(266, 60%, 31%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 1) 67%, hsla(266, 60%, 31%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 1) 67%, hsla(266, 60%, 31%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#000000", GradientType=1 );  
+
+  color: #C956BE;  
+  font-family: 'Chilanka', cursive;
+}
+.itachi{
+  height: 400px;
+}
+.search-box{
+  width: 650px;
+  height: 35px;
+  border-radius:40px ;
+  margin-left: 200px;
+  background-color: #e4c0e0;
+  color: rgb(70, 5, 70);
+}
+#article1,
+#article2,
+#article3{
+  height: 700px;
+}
+nav{
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color:#BDCB76;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+h1{
+  font-family: 'Abril Fatface', cursive;;
+  
+  text-align: center;
+  font-size: 80px;
+}
+#title-page{
+  height: 700px;
+  margin-top: 200px;
+
+}
